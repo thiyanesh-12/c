@@ -1,0 +1,28 @@
+# c\
+//even
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    if(num % 2 == 0)
+        printf("2", num);
+    else
+        printf("1", num);
+    
+    return 0;
+}
+//odd
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    if(num % 2 == 0)
+        printf("1", num);
+    else
+        printf("2", num);
+    return 0;
+}
+//
+  
